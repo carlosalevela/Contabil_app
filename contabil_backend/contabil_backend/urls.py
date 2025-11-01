@@ -21,5 +21,7 @@ from Usuario import urls
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('contabil/usuario/', include("Usuario.urls")),
-    path('contabil/', include("Almacen.urls"))
+    path('contabil/', include("Almacen.urls")),
+    path('contabil/', include("Producto.urls")),
+    path('contabil/', include("Compras.urls"))
 ]

@@ -20,6 +20,9 @@ INSTALLED_APPS = [
     'rest_framework',
     'Usuario',
     'Almacen',
+    'Producto',
+    'Compras',
+    "django_filters",
 ]
 
 AUTH_USER_MODEL = "Usuario.User"
